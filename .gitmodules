@@ -1,6 +1,3 @@
-[submodule "AR-PiPER"]
-	path = AR-PiPER
-	url = https://github.com/cake-lab/AR-PiPER
 [submodule "AR-OMX"]
 	path = AR-OMX
 	url = https://github.com/cake-lab/AR-OMX
