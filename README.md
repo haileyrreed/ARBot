@@ -12,4 +12,4 @@ Worcester Polytechnic Institute
   📢 We will release the full dataset once the paper gets accepted!
   </p>
 
-<img width="529" height="172" alt="Figure1" src="https://github.com/user-attachments/assets/d01e2e9b-d7e1-4691-b93e-4b473e19d0b0" />
+<img width="1612" height="534" alt="image" src="https://github.com/user-attachments/assets/593633c6-6bcd-4844-a2a7-b40159c7187b" />
