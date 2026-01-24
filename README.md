@@ -13,8 +13,10 @@ Worcester Polytechnic Institute
   </p>
 
 <img width="1612" height="534" alt="image" src="https://github.com/user-attachments/assets/593633c6-6bcd-4844-a2a7-b40159c7187b" />
+</div>
 
-Repository Structure:
+**Repository Structure:**
+```text
 ARBot
 ├── README.md
 ├── LICENSE
@@ -31,7 +33,7 @@ ARBot
     │   │   │   └── Square.csv 
     │   │   ├── U2
     │   │   └── . . .
-    │   └── CV                  # Tracing Fidelity Results using CV+IMU Setup
+    │   └── CV                   # Tracing Fidelity Results using CV+IMU Setup
     │       ├── U1
     │       │   ├── Circle.csv
     │       │   ├── S.csv
@@ -51,14 +53,15 @@ ARBot
         │   │   └── robot_5.csv 
         │   ├── U2
         │   └── . . .
-        └── CV                  # Repeatability Results using CV+IMU Setup
-            │   ├── H1.csv
-            │   ├── H2.csv
-            │   ├── H3.csv
-            │   ├── robot_1.csv
-            │   ├── robot_2.csv
-            │   ├── robot_3.csv
-            │   ├── robot_4.csv
-            │   └── robot_5.csv 
+        └── CV                   # Repeatability Results using CV+IMU Setup
+            ├── H1.csv
+            ├── H2.csv
+            ├── H3.csv
+            ├── robot_1.csv
+            ├── robot_2.csv
+            ├── robot_3.csv
+            ├── robot_4.csv
+            ├── robot_5.csv 
             ├── U2
             └── . . .
+```
