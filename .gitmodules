@@ -1,0 +1,12 @@
+[submodule "AR-PiPER"]
+	path = AR-PiPER
+	url = https://github.com/cake-lab/AR-PiPER
+[submodule "AR-OMX"]
+	path = AR-OMX
+	url = https://github.com/cake-lab/AR-OMX
+[submodule "AR-CV"]
+	path = AR-CV
+	url = https://github.com/cake-lab/AR-CV
+[submodule "ARPose"]
+	path = ARPose
+	url = https://github.com/cake-lab/ARPose
