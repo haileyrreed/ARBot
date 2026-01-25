@@ -9,7 +9,7 @@ Worcester Polytechnic Institute
 
 <div align="center">
   <p style="background-color: #f0f8ff; padding: 10px; border-radius: 5px; width:40%" >
-  📢 We will release the full dataset once the paper gets accepted!
+  📢 We will release the full human and synthetic dataset once the paper gets accepted!
   </p>
 
 <img width="1612" height="534" alt="image" src="https://github.com/user-attachments/assets/593633c6-6bcd-4844-a2a7-b40159c7187b" />
@@ -65,3 +65,9 @@ ARBot
             ├── U2
             └── . . .
 ```
+**Demo Videos:** These are a few demo videos for your refernce. We will have more demo videos for you shortly.
+1. [**CV+IMU Demo**](https://drive.google.com/file/d/1Z5jzTr8tb5N-JOF8WMgJOlCP0_4tsF_e/view?usp=drive_link)
+   [**CV+IMU Interface**](https://drive.google.com/file/d/1VjITGwzkQLmal4xdXsaT_iV-3kNjdCD8/view?usp=drive_link)
+2. [**ARPose Application Demo**](https://drive.google.com/file/d/1324HGlZf_FzXDWoYewhlxSaan-apt4sX/view?usp=drive_link)
+    [**ARPose Application Interface**](https://drive.google.com/file/d/1X8K3hZk1EJHmHe50lMYxUsKMgj8OQIDr/view?usp=drive_link)
+3. [**Synthetic/Autopilot Test Demo**](https://drive.google.com/file/d/1MwcpBHuZDvIcs2RHiYREru_yq0Fb4_qH/view?usp=drive_link)
