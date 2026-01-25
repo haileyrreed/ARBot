@@ -65,7 +65,7 @@ ARBot
             ├── U2
             └── . . .
 ```
-**Demo Videos:** These are a few demo videos for your refernce. We will have more demo videos for you shortly.
+**Demo Videos:** These are a few demo videos for your reference. We will have more demo videos for you shortly.
 1. [**CV+IMU Demo**](https://drive.google.com/file/d/1Z5jzTr8tb5N-JOF8WMgJOlCP0_4tsF_e/view?usp=drive_link);
    [**CV+IMU Interface**](https://drive.google.com/file/d/1VjITGwzkQLmal4xdXsaT_iV-3kNjdCD8/view?usp=drive_link)
 2. [**ARPose Application Demo**](https://drive.google.com/file/d/1324HGlZf_FzXDWoYewhlxSaan-apt4sX/view?usp=drive_link);
