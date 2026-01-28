@@ -15,6 +15,11 @@ Worcester Polytechnic Institute
 <img width="1612" height="534" alt="image" src="https://github.com/user-attachments/assets/593633c6-6bcd-4844-a2a7-b40159c7187b" />
 </div>
 
+To download the repositories with all the dependencies, use the following command:
+```bash
+git clone --recurse-submodules https://github.com/cake-lab/ARBot.git
+```
+
 **Repository Structure:**
 ```text
 ARBot
