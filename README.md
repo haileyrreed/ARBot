@@ -8,6 +8,7 @@ Worcester Polytechnic Institute
 </div>
 
 <div align="center">
+  <a href="https://arxiv.org/abs/2602.06273"><img src='https://img.shields.io/badge/arXiv-ARBot-red' alt='arXiv'></a>  
   <p style="background-color: #f0f8ff; padding: 10px; border-radius: 5px; width:40%" >
   📢 We will release the full human and synthetic dataset once the paper gets accepted!
   </p>
