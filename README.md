@@ -24,6 +24,16 @@ To download the repositories with all the dependencies, use the following comman
 git clone --recurse-submodules https://github.com/cake-lab/ARBot.git
 ```
 
+Use the table below as a reference to build and run your code:
+
+| Sub-Module Name | Content                                                                   | Step-by-Step Implementation Procedure                                |
+| :-------------- | :------------------------------------------------------------------------ | :------------------------------------------------------------------- |
+| AR-PiPER        | ROS2 Package to simulate and control the PiPER Arm                        | [AR-PiPER](https://github.com/cake-lab/AR-PiPER/blob/main/README.md) |
+| AR-OMX          | ROS2 Package to simulate and control the Robotis Open Manipulator X Arm   | [AR-OMX](https://github.com/cake-lab/AR-OMX/blob/main/README.md)     |
+| AR-CV           | Vision-based Teleoperation system for the CV+IMU control setup            | [AR-CV](https://github.com/cake-lab/AR-CV/blob/main/README.md)       |
+| ARPose          | Android Studio Files for the ARPose Mobile Application                    | [ARPose](https://github.com/cake-lab/ARPose/blob/main/README.md)     |
+
+
 **Repository Structure:**
 ```text
 ARBot
