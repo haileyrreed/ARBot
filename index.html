@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ARBot Interface</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<!-- ========================= -->
+<!-- SIDEBAR -->
+<!-- ========================= -->
+
+<nav id="sidebar" class="sidebar">
+
+    <h2>ARBot</h2>
+
+    <h3 class="menu-heading">
+        Control Modes
+    </h3>
+
+    <a href="#"
+       class="mode-link"
+       onclick="setMode('base'); return false;">
+        🚗 Base Control
+    </a>
+
+    <a href="#"
+       class="mode-link"
+       onclick="setMode('arm'); return false;">
+        🦾 ARM Control
+    </a>
+
+    <a href="#"
+       class="mode-link"
+       onclick="setMode('integrated'); return false;">
+        🤖 Integrated Control
+    </a>
+
+</nav>
+
+
+<!-- ========================= -->
+<!-- MAIN CONTENT -->
+<!-- ========================= -->
+
+
+<div id="main-content">
+
+<header>
+
+    <button class="menu-btn"
+            onclick="toggleSidebar()">
+        ☰
+    </button>
+
+    <h1>
+        ARBot Interface
+    </h1>
+
+</header>
+
+<main>
+    <div class="dashboard">
+
+<!-- ========================= -->
+<!-- CAMERA SECTION -->
+<!-- ========================= -->
+
+<section class="camera-layout">
+
+<!-- MAIN CAMERA -->
+
+<div class="main-camera">
+
+    <h2 id="mainTitle">
+        AR Camera
+    </h2>
+
+    <div class="camera-frame large">
+
+        <video id="mainVideo"
+               class="stream"
+               controls
+               autoplay
+               muted
+               loop>
+
+            <source src="assets/bunnyvid.mp4"
+                    type="video/mp4">
+
+        </video>
+    </div>
+</div>
+
+<!-- SIDE CAMERAS -->
+
+<div class="side-cameras">
+
+<!-- ROBOT ARM CAMERA -->
+
+<div class="camera-card">
+
+<h2 id="smallTitle1">
+    Robot Arm Camera
+</h2>
+
+
+<div class="camera-frame small"
+     onclick="swapCamera('smallVideo1','smallTitle1',this)">
+
+
+<video id="smallVideo1"
+       class="stream"
+       controls
+       autoplay
+       muted
+       loop>
+
+
+    <source src="assets/catvid.mp4"
+            type="video/mp4">
+
+
+</video>
+</div>
+</div>
+
+<!-- AR CAMERA -->
+
+<div class="camera-card">
+
+<h2 id="smallTitle2">
+    Robot Camera
+</h2>
+
+<div class="camera-frame small"
+     onclick="swapCamera('smallVideo2','smallTitle2',this)">
+
+<video id="smallVideo2"
+       class="stream"
+       controls
+       autoplay
+       muted
+       loop>
+
+
+    <source src="assets/puppyvid.mp4"
+            type="video/mp4">
+
+
+</video>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========================= -->
+<!-- CONTROL PANEL -->
+<!-- ========================= -->
+
+<section class="control-panel">
+
+<h2>
+    Control Panel
+</h2>
+
+<div class="panel-content">
+
+<!-- ========================= -->
+<!-- D PAD -->
+<!-- ========================= -->
+
+<div class="dpad">
+
+<div class="coordinates"
+     id="coordinates">
+
+    X:
+    <span id="coordX">
+        0
+    </span>
+
+    &nbsp;&nbsp;&nbsp;
+
+    Y:
+    <span id="coordY">
+        0
+    </span>
+
+</div>
+
+
+<!-- UP BUTTON -->
+
+<button class="btn up"
+
+        onmousedown="startMove(1)"
+        onmouseup="stopMove()"
+        onmouseleave="stopMove()">
+    ▲
+</button>
+
+<div class="middle-row">
+
+<button class="btn left"
+
+        onmousedown="startMove(2)"
+        onmouseup="stopMove()"
+        onmouseleave="stopMove()">
+    ◀
+</button>
+
+
+<div class="center"></div>
+
+<button class="btn right"
+
+        onmousedown="startMove(3)"
+        onmouseup="stopMove()"
+        onmouseleave="stopMove()">
+    ▶
+</button>
+
+</div>
+
+<!-- DOWN BUTTON -->
+
+<button class="btn down"
+
+        onmousedown="startMove(4)"
+        onmouseup="stopMove()"
+        onmouseleave="stopMove()">
+    ▼
+</button>
+
+</div>
+
+
+<!-- ========================= -->
+<!-- JOYSTICK -->
+<!-- ========================= -->
+
+
+<div class="joystick">
+
+    <div class="outer-stick">
+        <div class="inner-stick"></div>
+    </div>
+
+
+</div>
+</div>
+</section>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
